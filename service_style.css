@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html,body {
+    margin:0;
+    padding:0;
+	overflow-x: hidden;
+	
+}
+
+.header1
+{
+	background:#2a2f33;
+	color:#acb8c1;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight: 500;
+	padding:8px 0;
+	
+}
+.t1
+{
+	margin:0 5px;
+}
+
+.icon
+{
+	float:right;
+}
+
+.icon1
+{
+	
+	text-decoration: none !important;
+	color:#acb8c1!important;
+	padding:0 7px;
+}
+
+.icon1:hover
+{
+	color:#36a5ed !important;
+	transition: all ease-in-out;
+}
+.header2
+{
+	background:#FFFFFF;
+	padding:10px 0;
+}
+
+.logo
+{
+	margin-left:76px; 
+	margin-top:10px;
+}
+.mynav
+
+{
+	background:none!important; 
+	border: none !important;
+	margin:10px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight: 600;
+	margin-left:20px !important;
+	
+}
+
+.navigation
+{
+	width:100%;
+	
+}
+
+.navbar-nav  li 
+{
+	padding:0 6px;
+		
+}
+.navbar-nav  li a
+{
+	color:#2a2f33 !important;
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid transparent;
+	
+}
+.navbar-nav  li a:hover
+
+{
+	color:#36a5ed !important;
+	border-bottom: 1px solid #36a5ed;
+	transition: all ease-in-out;
+	transition-duration: .1s;
+}
+
+.bg1
+
+{
+	padding:170px 0 170px 0;
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(img/bg_service.jpg);
+	background-size: cover !important;
+	background-position: center center !important;
+	-webkit-background-size: cover !important; 
+	
+}
+
+.bg1 h3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	color:#232323;
+	font-size:22px;
+	text-align: left;
+}
+
+.bg1 h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	color:#424242;
+	font-size:46px;
+	text-align:left;
+}
+
+.services
+{
+	width:100%;
+	float:left;
+	padding:50px 0;
+	font-family:'Ubuntu', sans-serif;
+	font-size:20px;
+	color:#666666;
+
+}
+
+.section
+{
+	border:1px solid #D7D7D7;
+	box-sizing: border-box;
+	margin:30px 0 40px 0;
+}
+
+.section:hover
+{
+	box-shadow:0px 18px 13px #D7D7D7;
+}
+
+.para
+{
+	margin:10px 27px 0 0;
+	text-align:justify;
+}
+
+.head
+{
+	font-size: 24px;
+	text-align:justify;
+	color:#36a5ed;
+}
+
+.img-new
+{
+	width:100%;
+	
+
+}
+.newsletter
+{
+	width:100%;
+	float:left;
+	padding:50px 0 70px 0 !important;
+	background-size: cover !important;
+	background:url(img/home-fullwidth-img.jpg) no-repeat center center;
+}
+.newsletter h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	font-weight:600;
+	color:#fff;
+	text-align: center;
+}
+.newsletter p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	color:#fff;
+	text-align: center;
+}
+
+.form-control
+{
+	width:90%;
+	margin:20px 0 0 40px;
+	float:left;
+	background-color:rgba(246,246,246,.8);
+	color:#454545;
+	font-size: 16px;
+	padding: 25px 15px !important;	
+}
+
+.but3
+{
+	padding:15px 25px;
+	background:#0596FF !important;
+	color:#fff !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600 !important;
+	margin:35px 0 0 30px !important;
+	font-size:16px !important;
+	text-decoration: none !important;
+	border:none;
+}
+.sub
+{
+	margin-top: 9px;
+}
+
+ ::-webkit-scrollbar 
+{
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+      background-color:#36a5ed;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2); }
+
+
+
+
+	.footer
+{
+	width:100%;
+	float:left;
+	padding:40px 0;
+	background:#2a2f33;
+}
+
+.footer h4
+{
+	font-family:'Open Sans',sans-serif;
+	font-size:18px;
+	font-weight:700;
+}
+
+.ftext1
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:20px 0 0 0;
+	font-weight:400 !important;
+}
+
+.ftext2
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:15px 0 0 0;
+	font-weight:400 !important;
+}
+
+.ntext a
+
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:15px 0 0 0;
+	text-decoration:none !important;
+	color:#fff !important;
+
+}
+
+.links a
+{
+	text-decoration: none !important;
+	padding:20px 0 !important;
+	color:#fff !important;
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+}
+
+.links a:hover
+{
+	color:#0596FF !important;
+	transition-duration:.3s;	
+}
+
+
+
+.footer2
+{
+	background:#272b2f;
+	width:100%;
+	float:left;
+	padding:30px 0;
+	text-align:center;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	font-size:16px;
+}
+.pri
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	color:#acb8c1;
+}
+
+.data
+{
+	margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width : 525px )
+{
+	.icon
+	{
+	float:none;
+	}
+	
+	.logo
+	{
+	margin-left: 5px;
+	}
+	
+	.mynav
+	
+	{
+		float:right;
+		width:100%;
+		padding:10px 0px;
+	}
+	
+	.navbar-nav  li a:hover
+	{
+		border-bottom:none !important;
+	}
+	
+	.toggle
+	{
+	margin-right:15px!important;
+	}
+	
+	
+	.bg1
+
+{
+	padding:30px 0 30px 0;
+	
+	float:left;
+	background:url(img/bg_service.jpg);
+	background-position: center center !important;
+	
+}
+	
+	.bg1 h3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	color:#00B1FC;
+	font-size:18px;
+	text-align:justify!important;
+}
+
+	.col
+	
+	{
+		margin: 0 18px 0 12px;
+		text-align:center !important;
+	}
+
+	.head
+	{
+		text-align:center !important;
+	}
+	.services
+	{
+		font-size:16px;
+		
+	}
+	
+	.form-control
+{
+	width:80% !important;
+	}
+	.sub
+	{
+		margin-left:120px !important;
+	}
+	
+	
+
+.footer h4
+	{
+		margin-top:34px;
+	}
+}

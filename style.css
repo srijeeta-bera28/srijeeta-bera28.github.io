@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+    margin:0;
+    padding:0;
+	overflow-x: hidden;
+	
+}
+
+.header1
+{
+	background:#2a2f33;
+	color:#acb8c1;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-weight: 500;
+	padding:8px 0;
+	
+}
+.t1
+{
+	margin-left:5px;
+}
+
+.icon
+{
+	float:right;
+	
+}
+
+.icon1
+{
+	
+	text-decoration: none !important;
+	color:#acb8c1!important;
+	padding:0 7px;
+}
+
+.icon1:hover
+{
+	color:#36a5ed !important;
+	transition: all ease-in-out;
+}
+.header2
+{
+	background:#FFFFFF;
+	padding:10px 0;
+}
+
+.logo
+{
+	margin-left:76px; 
+	margin-top:10px;
+}
+.mynav
+
+{
+	background:none!important; 
+	border: none !important;
+	margin:10px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight: 600;
+	margin-left:20px !important;
+	
+}
+
+
+.navbar-nav  li 
+{
+	
+	
+	padding:0 6px;
+		
+}
+.navbar-nav  li a
+{
+	color:#2a2f33 !important;
+	text-align: center;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid transparent;
+	
+}
+.navbar-nav  li a:hover
+
+{
+	color:#36a5ed !important;
+	border-bottom: 1px solid #36a5ed;
+	transition: all ease-in-out;
+	transition-duration: .1s;
+}
+
+.slider
+{
+	width:100%;
+}
+
+
+.about
+
+{
+	padding:50px 0;
+	width:100%;
+	height:auto;
+	float:left;
+	background: url(img/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.about hr
+{
+	width:30%;
+	height:4px;
+	background:#0596FF;
+	margin-left: 5px !important;
+}
+.about h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:55px;
+	font-weight:700;
+	color:#4D4C4C;
+	
+	
+}
+
+.text1
+{
+	color:#000;
+	text-align:left;
+	font-size: 16px;
+	float:left;
+	font-family:'Ubuntu', sans-serif;
+}
+.we
+{
+	color:#0596FF;
+}
+.but
+{
+	padding:15px 25px;
+	background:#0596FF;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	margin-top:12px;
+	font-size:16px;
+	text-decoration: none !important;
+	border:none;
+}
+
+.but:hover
+{
+	background:#2A88F8;
+	color:#fff;
+}
+
+.feature
+{
+	padding:50px 0;
+	width:100%;
+	float:left;
+	background:url(img/bg3.jpg) no-repeat center center;
+	background-size: cover !important;
+	-webkit-background-size: cover;
+	
+}
+.feature h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:55px;
+	font-weight:700;
+	color:#0596FF;
+	
+}
+
+.feature hr
+{
+	
+	width:30%;
+	height:4px;
+	background:#fff;
+	margin-left: 5px !important;
+}
+
+
+
+	.text2
+{
+	color:#fff;
+	text-align:left;
+	font-size: 16px;
+	float:left;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.t2
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size: 24px;
+	font-weight:600;
+}
+
+
+.icon3
+{
+color:#000;
+margin-top:60px;
+font-size: 26px !important;
+
+}
+.sicon
+{
+	text-align:center;
+	width:200px;
+	height:200px;
+	box-sizing: border-box;
+	border:1px solid #000;
+	padding:15px;
+	margin:20px 0 0 40px!important;
+	color:#0596FF;
+	
+	
+}
+
+
+.sicon:hover
+{
+	background: #44D5F9;
+	width:200px;
+	height:200px;
+	transition:ease;
+	transition-duration:.3s;
+	color:#FFF!important;
+	
+}
+
+.testimonial
+{
+	width:100%;
+	float:left;
+	padding:50px 0;
+	background: #44D5F9;
+	
+}
+.testimonial h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:45px;
+	font-weight:700;
+	color:#4D4C4C;
+	text-align: center;
+}
+.newsletter
+{
+	width:100%;
+	float:left;
+	padding:50px 0;
+	background-size: cover !important;
+	background: url(img/bg4.jpg) no-repeat center center fixed;
+}
+.newsletter h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	font-weight:600;
+	color:#fff;
+	text-align: center;
+}
+
+
+ ::-webkit-scrollbar 
+{
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+      background-color:#36a5ed;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2); }
+.form-control
+{
+	width:90%;
+	margin:20px 0 0 40px;
+	float:left;
+	background-color:rgba(246,246,246,.8);
+	color:#454545;
+	font-size: 16px;
+	padding: 25px 15px !important;	
+}
+
+.but2
+{
+	padding:15px 25px;
+	background:#0596FF;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	margin-top:35px;
+	font-size:16px;
+	text-decoration: none !important;
+	border:none;
+}
+
+.footer
+{
+	width:100%;
+	float:left;
+	padding:40px 0;
+	background:#2a2f33;
+}
+
+.footer h4
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight:700;
+}
+
+.ftext1
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:20px 0 0 0;
+	font-weight:400 !important;
+}
+
+.ftext2
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:15px 0 0 0;
+	font-weight:400 !important;
+}
+
+.ftext3 a
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin-top:10px !important;
+	font-weight:400 !important;
+	text-decoration: none !important;
+}
+.ftext3 a:hover
+{
+	color:#0596FF !important;
+	transition-duration:.5s;
+}
+.ntext a
+
+{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin:15px 0 0 0 !important;
+	text-decoration:none !important;
+	color:#fff !important;
+
+}
+.ntext a:hover
+{
+	color:#0596FF !important;
+	transition-duration:.5s;	
+}
+
+.links a
+{
+	text-decoration: none !important;
+	padding:20px 0 !important;
+	color:#fff !important;
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	margin-top:20px !important;
+}
+
+.links a:hover
+{
+	color:#0596FF !important;
+	transition-duration:.3s;	
+}
+
+.footer2
+{
+	background:#272b2f;
+	width:100%;
+	float:left;
+	padding:30px 0;
+	text-align:center;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	font-size:16px;
+}
+.pri
+{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	color:#acb8c1;
+}
+
+.data
+{
+	margin-top:10px;
+}
+
+
+
+@media(max-width:768px)	
+{
+	.icon
+	{
+	float:none;
+	}
+	
+	.logo
+	{
+	margin-left: 5px;
+	}
+	
+	.mynav
+	
+	{
+		float:right;
+		width:100%;
+		padding:10px 0px;
+	}
+	
+	.navbar-nav  li a:hover
+	{
+		border-bottom:none;
+	}
+	
+	.toggle
+	{
+	margin-right:10px!important;
+	}
+	.section
+	{
+		padding:5px 20px;
+	}
+	.icon2
+	{
+	margin:15px 0 0 114px;
+	position:relative;
+	bottom:-34px;
+	}
+	
+	.line
+	{
+	max-width: 700px;
+	margin:20px 10px 20px 10px;
+	}
+	
+	.frow
+	{
+		margin-left: 65px !important;
+	}
+	
+	.form-control
+	{
+		margin-left:20px;
+	}
+.but2
+	{
+		margin-left:63px;
+	}
+.footer h4
+	{
+		margin-top:34px;
+	}
+}
