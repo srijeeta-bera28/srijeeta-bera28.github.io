@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{	margin:0;
+	padding:0;
+}
+
+.bg
+{
+	width:100%;
+	height:800px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-image: url(bg-image.png);
+	color:#fff;
+	padding:50px 0 0 20px;
+
+}
+
+
+ /*.logo
+{
+	
+	margin:50px 0 0 30px;
+}
+.mynav{
+	text-decoration:none !important;
+	display:inline;
+	border:none !important;
+	
+}
+	
+
+.navbar-nav li a
+{
+	margin:0 0 0 30px;
+	padding:8px 10px;
+	font-family: 'Ubuntu', sans-serif;
+	color:#fff !important;
+	font-weight:500;
+	font-size:16px;
+	
+}
+.navbar-nav li a:hover
+{
+	color:#ce6d06 !important;
+	background:#fff !important;
+	border-radius:15px;
+	border:2px solid #ce6d06;
+	padding:8px 10px;
+	margin:0 0 0 30px;
+	float:left;
+	opacity:.9;
+	transition:all ease-in-out;
+	
+}
+.about 
+{
+	background: #000;
+	margin:10px 0 0 0;
+	
+}
+.about li a:hover
+{
+	border:none !important;
+	background:none !important;
+}
+
+.h1
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:60px;
+	margin:100px 0 20px 0;
+	color:#fff !important;
+	
+	
+	font-weight:700px;
+	animation-name:head;
+	animation-duration:2s;
+	animation-iteration-count:1;
+}
+@keyframes head
+{
+	0%{
+		top:350px;
+		left:-600px;
+	}
+	100%
+	{
+		top:350px;
+		left:50px;
+	}
+}
+.i_text
+{
+	font-size:18px;
+	font-family: 'Ubuntu', sans-serif;
+	position:absolute;
+	color:#fff;
+	font-weight:500;
+	top:450px;
+	line-height:32px;
+	width:100%;
+	left:50px;
+	animation-name:head1;
+	animation-duration:2s;
+	animation-iteration-count:1;
+	animation-delay:1s;
+}
+	@keyframes head1
+{
+	0%{
+		top:450px;
+		left:-600px;
+	}
+	100%
+	{
+		top:450px;
+		left:50px;
+	}
+}
+	
+
+.button1
+{
+	border-radius:20px;
+	box-sizing: border-box;
+	border:2px solid #fff;
+	padding:8px 21px;
+	margin:0 0 0 30px;
+	
+	color:#fff;
+	font-weight:500;
+	
+	font-size:16px;
+	font-family: 'Ubuntu', sans-serif;
+	left:50px;
+}
+.button1:hover
+{
+	color:#fff;
+	background:#ce6d06; 
+	border:2px solid #ce6d06;
+	box-sizing: border-box;
+	box-shadow: 4px 3px 1px #D7D0D0;
+	transition:all ease-in-out;
+}
+.icon li
+{
+	text-decoration:none !important;
+	display:inline !important;
+}
+.icon li a
+{
+	
+	
+	color:#fff;
+	font-size:20px!important;
+}
+.icon li a:hover
+{
+	color:#ce6d06;
+}
+.bg1
+{
+	background:#DCC67B;
+	width:100%;
+	
+	
+	z-index:40px;
+}
+.img1
+{
+	border-radius:1px solid #000;
+	box-sizing:border-box;
+	
+	margin:100px 10px 120px 0;
+}
+h2
+{
+	margin:100px 0 0 0;
+	font-family: 'Raleway', sans-serif;
+	font-size:40px;font-weight: 700!important;
+	letter-spacing: 5px;
+}
+.text1
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20px;
+	font-weight:500;
+	color:#1B1717;
+	line-height: 25px;
+	letter-spacing: 3px;
+}
+.learn
+{
+	border-radius:20px;
+	border:2px solid #fff;
+	padding:8px 10px !important;
+	margin:10px 0 0 10px !important;
+	background:#ce6d06;
+	color:#fff;
+	font-weight:500;
+	top:600px;
+	font-size:16px;
+	width:150px !important;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+.learn:hover
+{
+	color:#fff;
+	background:#000; 
+	border:2px solid #000;
+	
+	box-shadow: 4px 3px 1px #ce6d06;
+	transition:all ease-in-out;	
+}
+.menu
+{
+	background:url(img6.jpg);
+	width:100%;
+	
+	float:left;
+	background-attachment: fixed;
+	background-size:cover;
+	
+}
+.cup
+{
+	color:#fff;
+	font-size:70px !important;
+	text-align: center !important;
+	
+}
+.m_h1
+{
+	font-family:'Raleway', sans-serif;
+	font-size:50px;
+	font-weight: 400;
+	
+	color:#fff;
+}
+.menu h6
+{
+	font-size:20px;
+	color:#fff;
+	
+	font-family: 'Spectral', serif;
+}
+.circle1
+{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	background:url(menu-item-1-328x328.jpg);
+	font-size:30px;
+	color:#000;
+	background-size: cover;
+	
+	float:left;
+
+}
+.circle2
+{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	background:url(menu-item-1-328x328.jpg);
+	background-size: cover;
+	
+	
+	float:left;
+}
+.circle3
+{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+	background:url(menu-item-1-328x328.jpg);
+	font-size:30px;
+	color:#000;
+	background-size: cover;
+	
+	
+	float:left;
+
+}*/
