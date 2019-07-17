@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
+.bg
+{
+	z-index:10;
+	width:100%;
+	background:#e2dad7;
+}
+	
+	.logo
+{
+	margin:5px 0 0 10px;
+	float:left;
+}
+.mynav
+{
+	
+	background:none !important; 
+	border-radius:0 !important;        
+	padding:10px 0px;
+	margin:10px 30px 0 0;
+	border:none;
+	float:left;
+	
+}
+.navbar-nav  li 
+{
+	
+	display:inline;
+	padding:0 8px;
+		
+}
+.navbar-nav  li a
+{
+	color:#3b1d06 !important;
+	font-family:'Raleway', sans-serif;
+	font-size:16px;
+	font-weight:600;
+	text-align: center;
+	text-decoration:none;
+}
+.navbar-nav li a:hover
+{
+ 	background:#5d320f!important;
+	box-sizing:border-box;
+	color:#fe821e !important;
+
+}
+.icon
+{
+	margin:27px 0 0 0;
+	
+}
+.icon li 
+{
+	
+	display:inline !important;
+	float:left;
+}
+.icon li a
+{
+	font-size:16px;
+	padding: 0 5px;
+	text-decoration:none !important; 
+	color:#3b1d06;
+}
+.icon li a:hover
+{
+	color:#fe821e; 
+}
+.bg1
+{	background:url(bg-image.png);
+	width:100%;
+	background-size:cover;
+	background-position:center center;
+	padding:60px 0 100px 0;
+	color:#fff;
+}
+.bg1 h1
+{
+	font-size:60px;
+	font-family: 'Spectral', serif;
+	text-align:center;
+	}
+
+.about
+{ background:#F5D5A7;
+width:100%;
+}
+
+.img1
+{
+	margin:20px 0 20px 77px;
+}
+
+.img2
+{margin:20px 0 20px 133px;}
+.text1
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:600;
+	font-size:40px;
+	color:#fe821e;
+}
+.para
+{
+	font-size:16px;
+	font-family:'Raleway', sans-serif;
+	color:#3b1d06;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px)
+{
+	
+	.logo
+	{
+		margin-left:-26px !important;
+	}
+	
+
+	.toggle
+	{
+		margin-left:38px;
+	}
+
+	
+	.img2
+{margin-left:40px !important;
+}
+.img1
+{
+	margin-left:40px !important;
+}
+.text1
+{text-align:center;
+	}
+.para
+{text-align:center;
+}
+.logo
+	{
+		float:left;
+	}
+	.icon
+{
+	padding: 0 2px;
+	float:right;
+}
+.icon li 
+{
+	
+	display:inline !important;
+	float:none;
+	padding-right:3px;
+}
+.icon li a
+{
+	margin:0;
+	padding:0 !important;
+}
+.ch p
+{
+margin-right:22px !important;
+}
+
+.f_logo
+	{margin-left:115px !important;}
+
+	.icon_f
+{
+	margin:10px 0 10px 120px !important;
+}
+.t_img
+{
+	margin-left:31px !important;
+}
+.about
+{padding:0 !important;}
+}
+
+
+
+.t_bg
+{
+	background:url(team_bg.jpg);
+	background-size:cover;
+	width:100%;
+	padding:50px 0 100px 0 !important;
+	background-position:center center;
+}
+.team h1
+{
+	font-family:'Spectral', serif;
+	font-size:70px;
+	text-align:center;
+	font-weight:700;
+	color:#fff;
+}
+.team h2
+{
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:50px;
+	font-weight:600;
+	color:#fff;
+}
+.team p
+{
+	font-size:28px;
+	font-family:'Raleway', sans-serif;
+	color:#fff;
+	text-align:center;
+	margin-left:10px !important;
+	}
+	.ch
+	{
+		margin-top:50px;
+		
+	}
+	.ch h3
+	{
+		font-family:'Spectral', serif;
+		font-size:20px;
+		color:#000;
+		text-align:center;
+		font-weight:600;
+	}
+	.ch h5
+	{
+		font-family:'Raleway', sans-serif;
+		font-wight:400;
+		font-sixe:16px;
+		text-align:center;
+	}
+	.ch p
+	{
+		font-family:'Spectral', serif;
+		font-size:18px;
+		letter-spacing:1px;
+		color: #666;
+		text-align:justify;
+		}
+		.faq
+		{
+			background:#F5D5A7;
+			width:100%;
+			padding:30px; 0 0 0;
+		}
+	.box
+	{
+		background:#fff;
+		padding:60px 0 0 0px;
+		}
+	.faq h1
+	{
+		font-size:50px;
+		font-family: 'Spectral', serif;
+		text-align:center;
+		font-weight:700;
+	}
+	.faq p
+	{
+		font-family:'Raleway', sans-serif;
+		font-size:18px;
+		font-weight:500;
+		text-align:center;
+	}
+	.faq dt
+	{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight:600;
+		font-size:24px;
+		margin-top:10px;
+	}
+	.faq dd
+	{
+		font-size:18px;
+		font-family: 'Spectral', serif;
+		text-align:justify;
+		font-weight:400;
+		margin-top:10px;
+	}
+	.f_bg
+	{
+		background:#666;
+		width:100%;
+		padding-top:50px;
+		padding-bottom:50px;
+		
+	}
+	.f_logo
+	{margin-left:223px;}
+	
+	.footer
+	{float:left;
+	width:100%;}
+	
+	.footer p
+	{
+		font-family:'Raleway', sans-serif;
+		font-size:18px;
+		font-weight:500;
+		text-align:center;
+		color:#fff;
+	}
+	.icon_f
+{
+	margin:20px 0 0 223px;
+	
+}
+.icon_f li 
+{
+	
+	display:inline !important;
+	float:left;
+	
+	
+}
+.icon_f li a
+{
+	font-size:24px;
+	padding: 0 5px;
+	text-decoration:none !important; 
+	color:#fff;
+}
+.icon_f li a:hover
+{
+	color:#fe821e; 
+}
